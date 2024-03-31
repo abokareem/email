@@ -1,0 +1,6 @@
+sudo apt-get install postfix
+sudo systemctl start postfix
+
+sudo netstat -tuln | grep :25
+
+sudo apt-get install mailutils
